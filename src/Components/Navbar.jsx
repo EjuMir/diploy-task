@@ -2,9 +2,9 @@
 const Navbar = () => {
 
     //navbar dropdowns
-    const catalogue = <><details>
+    const howItWorks = <><details>
         <summary className="hover:text-green-500">How it works</summary>
-        <ul className="p-2">
+        <ul className="p-2 w-36">
             <li className="hover:text-green-500"><a>How Printify Works</a></li>
             <li className="hover:text-green-500"><a>Print On Demand</a></li>
             <li className="hover:text-green-500"><a>Printify Quality Promise</a></li>
@@ -14,7 +14,7 @@ const Navbar = () => {
 
     const services = <><details>
         <summary className="hover:text-green-500">Services</summary>
-        <ul className="p-2">
+        <ul className="p-2 w-36">
             <li className="hover:text-green-500"><a>How Printify Works</a></li>
             <li className="hover:text-green-500"><a>Print On Demand</a></li>
             <li className="hover:text-green-500"><a>Printify Quality Promise</a></li>
@@ -24,7 +24,7 @@ const Navbar = () => {
 
     const useCases = <><details>
         <summary className="hover:text-green-500">Use-cases</summary>
-        <ul className="p-2">
+        <ul className="p-2 w-36">
             <li className="hover:text-green-500"><a>How Printify Works</a></li>
             <li className="hover:text-green-500"><a>Print On Demand</a></li>
             <li className="hover:text-green-500"><a>Printify Quality Promise</a></li>
@@ -34,7 +34,7 @@ const Navbar = () => {
 
     const needHelp = <><details>
         <summary className="hover:text-green-500">Need help?</summary>
-        <ul className="p-2">
+        <ul className="p-2 w-36">
             <li className="hover:text-green-500"><a>How Printify Works</a></li>
             <li className="hover:text-green-500"><a>Print On Demand</a></li>
             <li className="hover:text-green-500"><a>Printify Quality Promise</a></li>
@@ -45,7 +45,7 @@ const Navbar = () => {
 //all navbar information
     const dropDowns = <>
         <li className="hover:text-green-500"><a>Catalogue</a></li>
-        <li>{catalogue}</li>
+        <li>{howItWorks}</li>
         <li className="hover:text-green-500"><a>Pricing</a></li>
         <li className="hover:text-green-500"><a>Blogs</a></li>
         <li>{services}</li>
@@ -73,7 +73,7 @@ const Navbar = () => {
                     </div>
                     <ul
                         tabIndex={0}
-                        className="menu menu-sm dropdown-content bg-base-100 rounded-box z-[1] mt-3 w-80 p-2 shadow">
+                        className="menu menu-sm dropdown-content bg-base-100 rounded-box z-[1] mt-3 w-56 p-2 shadow">
                         {dropDowns}
                     </ul>
                 </div>
