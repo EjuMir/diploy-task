@@ -1,6 +1,6 @@
 import Slider from "../Tools/Slider";
 import Lottie from "react-lottie";
-import animationData from "../../public/Animation - 1726907344627.json";
+import animationData from "../Animations/Animation - 1726907344627.json";
 import { RiPlayCircleLine } from "react-icons/ri";
 import { IoMdCheckmark } from "react-icons/io";
 
@@ -25,7 +25,7 @@ const Banner = () => {
         <div className="flex lg:flex-row flex-col gap-8 justify-center items-center mt-20">
             <div className="flex flex-col gap-6">
                 <div>
-                    <h1 className="text-4xl font-bold">Create and sell custom products</h1>
+                    <h1 className="text-4xl font-bold">Create and sell <br />custom products</h1>
                 </div>
                 <div className="text-lg font-bold">
                     <ul>

@@ -44,10 +44,9 @@ const Slider = () => {
                 modules={[Pagination, Autoplay, Navigation]}
                 className="mySwiper"
             >
-                <SwiperSlide><img src="https://images.thenile.io/r1000/9781444910582.jpg" alt="" /></SwiperSlide>
-                <SwiperSlide><img src="https://images.squarespace-cdn.com/content/v1/59e235dcd7bdcec81eb68962/1575923349583-5KH4TDVO8RXU4XBNSI0M/ke17ZwdGBToddI8pDm48kD755XqWqn8HkRX8WSTt5GJ7gQa3H78H3Y0txjaiv_0fDoOvxcdMmMKkDsyUqMSsMWxHk725yiiHCCLfrh8O1z5QPOohDIaIeljMHgDF5CVlOqpeNLcJ80NK65_fV7S1URwn7vetbNoOrjGqAVoZN5bz1XPY0_Ev1nDpBBPOnwUda4oDI66FEaoPF3aKRzQZjg/Historical+Fiction+Where+the+Light+Enters+by+Sara+Donati.jpg" alt="" /></SwiperSlide>
-                <SwiperSlide><img src="https://images.squarespace-cdn.com/content/v1/59e235dcd7bdcec81eb68962/1575923349157-3BNDH7JR5UF7ZU0A5A48/ke17ZwdGBToddI8pDm48kJTNl5E2hijD7J-sESO_BVN7gQa3H78H3Y0txjaiv_0fDoOvxcdMmMKkDsyUqMSsMWxHk725yiiHCCLfrh8O1z5QPOohDIaIeljMHgDF5CVlOqpeNLcJ80NK65_fV7S1Ue3pExvFiO6E9rv2lljq9S2_mVV9EJlaTc_26ArkrjDTJilkUu7eIyBb-AQDEk_nZw/Historical+Fiction+The+Sound+of+the+Hours+by+Karen+Campbell.jpg" alt="" /></SwiperSlide>
-                <SwiperSlide><img src="https://s-i.huffpost.com/gen/1148926/images/o-CLASSIC-BOOKS-ORIGINAL-COVERS-facebook.jpg" alt="" /></SwiperSlide>
+                <SwiperSlide><img src="https://i.pinimg.com/736x/df/ed/ee/dfedeee61c4be8b31174ee684575ff7f.jpg" alt="" /></SwiperSlide>
+                <SwiperSlide><img src="https://us.123rf.com/450wm/yupiramos/yupiramos2304/yupiramos230400374/202513163-modern-fashion-design-men-and-women-clothing.jpg?ver=6" alt="" /></SwiperSlide>
+                <SwiperSlide><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQVHwE7VuSkk5duvq2g4iTeYei9_bMiTeiFyg&s" alt="" /></SwiperSlide>
             </Swiper>
         </div>
     );
