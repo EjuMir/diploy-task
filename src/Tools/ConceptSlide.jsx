@@ -1,6 +1,8 @@
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
 import Slider from "react-slick";
+import 'animate.css';
+
 
 const ConceptSlide = () => {
 
@@ -41,7 +43,7 @@ const ConceptSlide = () => {
 
     return (
 
-        <div className="slider-container">
+        <div className="slider-container animate__animated animate__fadeInDown">
             <Slider {...settings}>
                 <div>
                     <div>

@@ -22,7 +22,7 @@ const Concept = () => {
                 <div>
                     <img className="lg:w-[600px] w-full h-96 rounded-2xl" src="https://printify.com/wp-content/uploads/2021/06/Printify-Products-White.jpeg" alt="" />
                 </div>
-                <div className="animate__animated animate__fadeInLeft animate__delay-1s bg-white lg:w-[1000px] lg:h-80 place-self-end lg:px-20">
+                <div className="animate__animated animate__fadeInLeft animate__delay-1s bg-white lg:w-[1000px] lg:h-80 place-self-end lg:px-20 rounded-lg">
                     <h1 className="text-xl font-bold my-5">Easily add your design to a wide range of products</h1>
                     <p className="mb-5">
                         With our free design tools, you can easily add your custom designs to t-shirts, mugs,
