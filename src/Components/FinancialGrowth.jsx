@@ -1,8 +1,8 @@
 
 const FinancialGrowth = () => {
     return (
-        <div className="my-20 mx-4 lg:relative lg:mx-36 lg:h-[1000px]">
-            <div className="flex flex-col lg:flex-row-reverse lg:absolute lg:top-[30%] lg:left-[50%] lg:translate-x-[-50%] lg:translate-y-[-50%]">
+        <div className="my-20 mx-4 lg:mx-36 ">
+            <div className="flex flex-col lg:flex-row-reverse">
                 <div>
                     <img className="lg:w-[600px] w-full h-full rounded-t-lg" src="https://img.freepik.com/premium-vector/woman-watering-money-flower_107173-9236.jpg" alt="" />
                 </div>
@@ -32,8 +32,6 @@ const FinancialGrowth = () => {
                         <p className="mb-3 text-white text-xs">100% Free to use · 900+ Products · Largest print network</p>
                     </div>
                 </div>
-
-
             </div>
         </div>
     );

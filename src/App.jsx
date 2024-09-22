@@ -5,6 +5,7 @@ import FinancialGrowth from "./Components/FinancialGrowth"
 import Navbar from "./Components/Navbar"
 import Perks from "./Components/Perks"
 import Review from "./Components/Review"
+import SocialSection from "./Components/SocialSection"
 
 function App() {
 
@@ -18,6 +19,7 @@ function App() {
            <ConnectYourStore></ConnectYourStore>
            <Review></Review>
            <FinancialGrowth></FinancialGrowth>
+           <SocialSection></SocialSection>
       </div>
     </>
   )
