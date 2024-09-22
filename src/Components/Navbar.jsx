@@ -4,7 +4,7 @@ const Navbar = () => {
     //navbar dropdowns
     const howItWorks = <><details>
         <summary className="hover:text-green-500">How it works</summary>
-        <ul className="p-2 w-36">
+        <ul className="p-2 w-36 z-[3]">
             <li className="hover:text-green-500"><a>How Printify Works</a></li>
             <li className="hover:text-green-500"><a>Print On Demand</a></li>
             <li className="hover:text-green-500"><a>Printify Quality Promise</a></li>
@@ -14,7 +14,7 @@ const Navbar = () => {
 
     const services = <><details>
         <summary className="hover:text-green-500">Services</summary>
-        <ul className="p-2 w-36">
+        <ul className="p-2 w-36 z-[3]">
             <li className="hover:text-green-500"><a>How Printify Works</a></li>
             <li className="hover:text-green-500"><a>Print On Demand</a></li>
             <li className="hover:text-green-500"><a>Printify Quality Promise</a></li>
@@ -24,7 +24,7 @@ const Navbar = () => {
 
     const useCases = <><details>
         <summary className="hover:text-green-500">Use-cases</summary>
-        <ul className="p-2 w-36">
+        <ul className="p-2 w-36 z-[3]">
             <li className="hover:text-green-500"><a>How Printify Works</a></li>
             <li className="hover:text-green-500"><a>Print On Demand</a></li>
             <li className="hover:text-green-500"><a>Printify Quality Promise</a></li>
@@ -34,7 +34,7 @@ const Navbar = () => {
 
     const needHelp = <><details>
         <summary className="hover:text-green-500">Need help?</summary>
-        <ul className="p-2 w-36">
+        <ul className="p-2 w-36 z-[3]">
             <li className="hover:text-green-500"><a>How Printify Works</a></li>
             <li className="hover:text-green-500"><a>Print On Demand</a></li>
             <li className="hover:text-green-500"><a>Printify Quality Promise</a></li>
@@ -42,19 +42,19 @@ const Navbar = () => {
         </ul>
     </details></>
 
-//all navbar information
+    //all navbar information
     const dropDowns = <>
         <li className="hover:text-green-500"><a>Catalogue</a></li>
-        <li>{howItWorks}</li>
+        <li className="z-[3]">{howItWorks}</li>
         <li className="hover:text-green-500"><a>Pricing</a></li>
         <li className="hover:text-green-500"><a>Blogs</a></li>
-        <li>{services}</li>
-        <li>{useCases}</li>
-        <li>{needHelp}</li>
+        <li className="z-[3]">{services}</li>
+        <li className="z-[3]">{useCases}</li>
+        <li className="z-[3]">{needHelp}</li>
     </>
 
     return (
-        <div className="navbar bg-base-100 shadow-md">
+        <div className="navbar bg-base-100 shadow-md sticky z-[3]">
             <div className="navbar-start">
                 <div className="dropdown">
                     <div tabIndex={0} role="button" className="btn btn-ghost lg:hidden">
@@ -77,7 +77,10 @@ const Navbar = () => {
                         {dropDowns}
                     </ul>
                 </div>
-                <a className="btn btn-ghost text-xl text-green-500">Printify</a>
+                <div className="flex gap-0">
+                    <img className="w-15 h-10" src="https://ugc.production.linktr.ee/aa1ee213-072b-4c35-a692-8cd8a124fa9c_Printify-Logo-04.png?io=true&size=thumbnail-stack-v1_0" alt="" />
+                    <a className="text-2xl font-bold text-green-500">Printify</a>
+                </div>
             </div>
             <div className="navbar-center hidden lg:flex">
                 <ul className="menu menu-horizontal px-1">
