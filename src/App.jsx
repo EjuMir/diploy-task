@@ -2,6 +2,7 @@ import Banner from "./Components/Banner"
 import Concept from "./Components/Concept"
 import ConnectYourStore from "./Components/ConnectYourStore"
 import FinancialGrowth from "./Components/FinancialGrowth"
+import Footer from "./Components/Footer"
 import Navbar from "./Components/Navbar"
 import Perks from "./Components/Perks"
 import Review from "./Components/Review"
@@ -20,6 +21,7 @@ function App() {
            <Review></Review>
            <FinancialGrowth></FinancialGrowth>
            <SocialSection></SocialSection>
+           <Footer></Footer>
       </div>
     </>
   )

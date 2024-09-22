@@ -13,16 +13,16 @@ const FinancialGrowth = () => {
                         You pay for fulfillment only when you make a sale
                     </p>
                     <div className="bg-gray-900 w-72 mb-3 rounded-xl p-4">
-                        <div className="flex justify-between text-white">
+                        <div className="flex justify-between text-white my-2">
                             <p>You sell a shirt</p>
                             <p>$18</p>
                         </div>
-                        <div className="flex justify-between text-white">
+                        <div className="flex justify-between text-white my-2">
                             <p>You pay for its production</p>
                             <p>$12</p>
                         </div>
                         <hr />
-                        <div className="flex justify-between text-white">
+                        <div className="flex justify-between text-white my-2">
                             <p>Your Profit</p>
                             <p>$6</p>
                         </div>
