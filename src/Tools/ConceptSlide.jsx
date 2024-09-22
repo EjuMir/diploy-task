@@ -1,10 +1,13 @@
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
 import Slider from "react-slick";
-import 'animate.css';
+import AOS from 'aos';
+import 'aos/dist/aos.css';
 
 
 const ConceptSlide = () => {
+
+    AOS.init();
 
     var settings = {
         dots: true,
@@ -43,7 +46,7 @@ const ConceptSlide = () => {
 
     return (
 
-        <div className="slider-container animate__animated animate__fadeInDown">
+        <div data-aos="fade-down" className="slider-container">
             <Slider {...settings}>
                 <div>
                     <div>

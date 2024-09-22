@@ -12,7 +12,7 @@ const Slider = () => {
             <Swiper
                 id='swipe'
                 autoplay={{
-                    delay: 2400,
+                    delay: 1900,
                     disableOnInteraction: false,
                 }}
                 navigation={true}
