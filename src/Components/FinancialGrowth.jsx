@@ -1,22 +1,40 @@
 
 const FinancialGrowth = () => {
     return (
-        <div className="my-20 mx-4 bg-gray-100 lg:relative lg:mx-36 lg:h-[1000px]">
-        <div className="flex flex-col lg:flex-row-reverse lg:absolute lg:top-[30%] lg:left-[50%] lg:translate-x-[-50%] lg:translate-y-[-50%]">
-            <div>
-                <img className="lg:w-[600px] w-full h-96 rounded-2xl" src="https://img.freepik.com/premium-vector/people-watering-money-tree-picking-golden-coins-from-green-plant-successful-business-growth-income-investment-concept-flat-characters-making-money-company-have-cash-financial-profits_88138-613.jpg" alt="" />
-            </div>
-            <div data-aos="fade-right" className="bg-white lg:w-[1000px] lg:h-80 place-self-end lg:px-20 rounded-lg">
-                <h1 className="text-xl font-bold my-5">Easily add your design to a wide range of products</h1>
-                <p className="mb-5">
-                    With our free design tools, you can easily add your custom designs to t-shirts, mugs,
-                    phone cases, and hundreds of other products.
-                </p>
-                <div className="flex gap-2 text-green-500">
-                    <a className="text-lg hover:text-green-700 hover:cursor-pointer">All Products</a>
+        <div className="my-20 mx-4 lg:relative lg:mx-36 lg:h-[1000px]">
+            <div className="flex flex-col lg:flex-row-reverse lg:absolute lg:top-[30%] lg:left-[50%] lg:translate-x-[-50%] lg:translate-y-[-50%]">
+                <div>
+                    <img className="lg:w-[600px] w-full h-full rounded-t-lg" src="https://img.freepik.com/premium-vector/woman-watering-money-flower_107173-9236.jpg" alt="" />
                 </div>
+
+                <div data-aos="fade-right" className="bg-cyan-950 lg:w-[1000px] p-4 place-self-end lg:px-20 rounded-l-lg">
+                    <h1 className="text-5xl font-bold my-5 text-white">Make Money, Risk-Free</h1>
+                    <p className="mb-5 text-white">
+                        You pay for fulfillment only when you make a sale
+                    </p>
+                    <div className="bg-gray-900 w-72 mb-3 rounded-xl p-4">
+                        <div className="flex justify-between text-white">
+                            <p>You sell a shirt</p>
+                            <p>$18</p>
+                        </div>
+                        <div className="flex justify-between text-white">
+                            <p>You pay for its production</p>
+                            <p>$12</p>
+                        </div>
+                        <hr />
+                        <div className="flex justify-between text-white">
+                            <p>Your Profit</p>
+                            <p>$6</p>
+                        </div>
+                    </div>
+                    <div>
+                        <a className="btn bg-green-700 text-white border-none rounded-none mb-3">Start Selling</a>
+                        <p className="mb-3 text-white text-xs">100% Free to use · 900+ Products · Largest print network</p>
+                    </div>
+                </div>
+
+
             </div>
-        </div>
         </div>
     );
 };
